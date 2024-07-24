@@ -1,3 +1,4 @@
+/* Dont forget to organize the selectors and attributes */
 
 *,
 *::before,
@@ -11,45 +12,77 @@
 }
 
 body {
-    font-family: "Karla", sans-serif;
-    background-color: #ecfdf5;
-    font-size: 2rem;
+    background-color: #1C1C1C;  
+}
+
+.project {
+    font-family: "Inter", sans-serif;
+    background-color: #ECFDF5;
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 20vh;
+    padding: 7rem 3rem 0rem 3rem;
 }
 
 .text {
     color:#1F2937
-    font-size: ;
-    font-weight: bold;
-    margin: 0em 3em;
-    border: 3px solid black
+    /* margin: .2em 1em; */
+    /* border: 2px solid black; */
+    
 }
 
-.text.two {
+.one,
+.two {
+    font-family: "Karla", sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    /* padding: 0rem;
+    margin: 0rem;
+    border: 2px solid black */
+}
+
+.two {
     color: #10B981;
 }
 
-.text.three {
-    font-family: "Inter", sans-serif;
-    font-weight: 200;
-    font-size: 1rem;
-}
-
-.boxes {
-    display: flex;
-    justify-content: space-around;  
+.text .three {
+    margin-top: .3em;
+    font-size: 1.2rem;
+    font-weight: 350;
+    color: #6B7280
 }
 
 button {
-    margin: 3em;
+    border-style: none;
+    background-color: #10B981;
+    color: white;
+    font-size: .9rem;
+    padding: .8em 2.5em;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+/* Add some image hover effects! */
+
+.boxes {
+    display: flex;
+    gap: 2rem;
+    /* margin: 0em; */
+    /* border: solid 3px green; */
 }
 
 .box {
-    width: 15em;
-    height: auto;
-    color: #10B981;
+    width: 15rem;
+    height: 2.5rem;
+    color: #5DEF92;
     font-size: 1rem;
-    padding: .5em 3em;
+    font-weight: 300;
+    padding: .6rem 0rem .1rem .4rem;
     background-color: #1F2937;
     border-radius: 5px;
     text-align: center;
+    text-wrap: nowrap;
 }
