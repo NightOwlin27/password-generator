@@ -15,6 +15,10 @@
     --clr-dark: #ECFDF5;
 }
 
+/* The :root selector in CSS represents the highest-level parent of your HTML document, 
+which is typically the <html> element. When you define custom properties (variables) using :root, 
+they are accessible throughout your entire document. This makes it easy to set default values for your variables. */
+
 /* I do not yet understand why ":root" has to have the opposite intended colors rather than ".dark-mode" in order to get the effect */
 
 .dark-mode {
